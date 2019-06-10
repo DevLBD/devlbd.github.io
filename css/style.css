@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+
+.bio {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+.header {
+    font-family: "Source Sans Pro", sans-serif;
+    transition: all 0.3s ease 0s;
+    
+}
+* {
+  margin: 0px;
+  padding: 10px;
+}  
+  
+h1 {
+  color: #272727;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+h2 {
+  color: #151515;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h5 {
+  padding: 10px;
+  color: black;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h5.white {
+  padding: 10px;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h6 {
+  color: grey;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+p.description {
+  color: white;
+  font-size: 24px;
+  font-weight: 10;
+  font-family: "Source Sans Pro", sans-serif;
+  
+ } 
+
+.button-two {
+  border-radius: 4px;
+  background-color: red;
+  border: none;
+  padding: 20px;
+  width: 259px;
+  transition: all 0.5s;
+}
+
+
+.button-two span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-two span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 10;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-two:hover span {
+  padding-right: 25px;
+}
+
+.button-two:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.menu {
+  background-color: white;
+  display: flex;
+  position: fixed;
+  top: 0px;
+  width: 875px;
+}
+
+.book {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.spotify {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.albums {
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+}
+
+.wrap {
+  position: relative;
+  float: right;
+  display: flex;
+  align-items: right;
+  justify-content: right;
+  background: white;
+}
+
+.btn {
+  width: 134px;
+  height: 45px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: rgb(189, 181, 181);
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  }
+
+.btn:hover {
+  background-color: #ff5722;
+      box-shadow: 0px 15px 20px rgba(119, 29, 0, 0.73);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.suggested {
+    display: flex;
+    font-family: "Source Sans Pro", sans-serif;
+  }
+
+.showcase {
+    font-family: "Source Sans Pro", sans-serif;
+    float: center;
+  }
+
+  .devices {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .welcome {
+    font-family: "Source Sans Pro", sans-serif;
+    display: flex;
+    padding: 0px;
+  }
+
+  .btmy {
+    width: 150px;
+    height: 45px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    color: white;
+    background-color: #000;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    }
+
+    .btmy:hover {
+        background-color: rgb(233, 220, 220);
+            box-shadow: 0px 15px 20px rgba(49, 48, 48, 0.73);  
+        color: #000;
+        transform: translateY(-3px);
+      }
+.boxone {
+  width: 440px;
+  height: 200px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  background-color: rgb(66, 183, 255);
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  }
+
+  .boxtwo {
+    width: 440px;
+    height: 200px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: rgb(255, 128, 0);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
+  .boxthree {
+    width: 440px;
+    height: 200px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: rgb(7, 192, 7);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
+  .boxfour {
+    width: 440px;
+    height: 200px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: rgb(194, 38, 124);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
+  .boxfive {
+    width: 440px;
+    height: 200px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: rgb(199, 17, 17);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
+  .boxone:hover {
+    transform: translateY(-7px);
+  }
+  .boxtwo:hover {
+    transform: translateY(-7px);
+  }
+  .boxthree:hover {
+    transform: translateY(-7px);
+  }
+  .boxfour:hover {
+    transform: translateY(-7px);
+  }
+  .boxfive:hover {
+    transform: translateY(-7px);
+  }
