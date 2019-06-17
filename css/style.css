@@ -85,7 +85,7 @@ p.description {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 990px;
+  border-radius: 910px;
   border: solid 3px #272727;
   transition: border-radius 0.2s ease, transform 0.3s ease;
 }
