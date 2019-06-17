@@ -58,6 +58,14 @@ p.description {
   
  } 
 
+ p.little {
+  color: grey;
+  font-size: 16px;
+  font-weight: 14;
+  font-family: "Source Sans Pro", sans-serif;
+  
+ } 
+
 .button-two {
   border-radius: 4px;
   background-color: red;
