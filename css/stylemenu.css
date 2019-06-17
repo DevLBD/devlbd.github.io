@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
-* {
-  margin: 0;
-  padding: 0;
-}
-
 .navWrapper {
   width: 60px;
   height: 60px;
@@ -43,7 +38,7 @@
   transform: rotate(45deg);
 }
 
-.menu {
+.menub {
   background: white;
   width: 200px;
   padding-top: 40px;
@@ -59,12 +54,12 @@
   transform-origin: left top;
 }
 
-.menu.open {
+.menub.open {
   transform: scale(0.99);
   opacity: 1;
 }
 
-.menu a {
+.menub a {
   color: #393939;
   font-size: 20px;
   font-family: "Poppins";
@@ -75,7 +70,7 @@
   transition: 0.2s ease;
 }
 
-.menu a:hover {
+.menub a:hover {
   color: #D53D3D;
 } 
 
