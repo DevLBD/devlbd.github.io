@@ -71,13 +71,12 @@ p.description {
 
 .navWrapper {
   margin-top: 5px;
-  margin-right: 5px;
   width: 11px;
   height: 11px;
   position: fixed;
   display: flex;
-  justify-content: right;
-  align-items: right;
+  justify-content: left;
+  align-items: left;
 }
 
 .navButton {
