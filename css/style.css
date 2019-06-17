@@ -80,7 +80,7 @@ p.description {
 }
 
 .navButton {
-  margin-right: 0.5px;
+  margin-right: -1px;
   width: 11px;
   height: 11px;
   display: flex;
