@@ -89,7 +89,7 @@ p.description {
 
 .navButton {
   position: relative;
-  right: 30px;
+  left: 30px;
   width: 11px;
   height: 11px;
   display: flex;
