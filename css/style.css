@@ -254,10 +254,10 @@ p.description {
 
   .boxproj {
     width: 440px;
-    height: 290px;
+    height: 275px;
     font-family: "Source Sans Pro", sans-serif;
     color: white;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(202, 201, 201);
     border: none;
     border-radius: 6px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
