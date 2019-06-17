@@ -81,15 +81,15 @@ p.description {
   margin-top: 10px;
   width: 11px;
   height: 11px;
-  position: relative;
-  right: 10px;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .navButton {
-  margin-left: 875px;
+  position: relative;
+  right: 30px;
   width: 11px;
   height: 11px;
   display: flex;
