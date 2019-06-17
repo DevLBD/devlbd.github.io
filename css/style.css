@@ -83,7 +83,7 @@ p.description {
   height: 11px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: right;
   cursor: pointer;
   border-radius: 990px;
   border: solid 3px #272727;
