@@ -88,8 +88,7 @@ p.description {
 }
 
 .navButton {
-  position: fixed;
-  left: 875px;
+  margin-left: -5px;
   width: 11px;
   height: 11px;
   display: flex;
@@ -102,7 +101,7 @@ p.description {
 }
 
 .navButton:hover {
-  border-radius: 15px;
+  border-radius: 850px;
 }
 
 .navButton:active {
