@@ -75,11 +75,12 @@ p.description {
   height: 11px;
   position: fixed;
   display: flex;
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 
 .navButton {
+  margin-right: 1px;
   width: 11px;
   height: 11px;
   display: flex;
