@@ -81,7 +81,6 @@ p.description {
 .navButton {
   width: 11px;
   height: 11px;
-  display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
