@@ -252,6 +252,18 @@ p.description {
     transition: all 0.3s ease 0s;
   }
 
+  .boxproj {
+    width: 440px;
+    height: 200px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: rgb(172, 172, 172);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
   .boxone:hover {
     transform: translateY(-7px);
   }
@@ -265,5 +277,8 @@ p.description {
     transform: translateY(-7px);
   }
   .boxfive:hover {
+    transform: translateY(-7px);
+  }
+  .boxproj:hover {
     transform: translateY(-7px);
   }
