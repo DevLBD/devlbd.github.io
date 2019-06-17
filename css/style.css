@@ -83,7 +83,7 @@ p.description {
   height: 11px;
   display: flex;
   justify-content: center;
-  align-items: right;
+  align-items: center;
   cursor: pointer;
   border-radius: 990px;
   border: solid 3px #272727;
@@ -113,7 +113,7 @@ p.description {
   padding-top: 40px;
   padding-bottom: 40px;
   box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 5px;
+  border-radius: 15px;
   position: absolute;
   top: 50px;
   left: 75px;
