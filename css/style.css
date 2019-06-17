@@ -79,19 +79,19 @@ p.description {
 }
 
 .navButton {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 995px;
   border: solid 3px #272727;
   transition: border-radius 0.2s ease, transform 0.3s ease;
 }
 
 .navButton:hover {
-  border-radius: 10px;
+  border-radius: 1000px;
 }
 
 .navButton:active {
