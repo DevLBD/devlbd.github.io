@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins');
 
 .bio {
     font-family: "Source Sans Pro", sans-serif;
@@ -66,7 +67,7 @@ p.description {
   
  } 
 
- @import url('https://fonts.googleapis.com/css?family=Poppins');
+
 
 .navWrapper {
   width: 60px;
