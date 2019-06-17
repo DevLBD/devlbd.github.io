@@ -101,7 +101,7 @@ p.description {
 }
 
 .navButton:hover {
-  border-radius: 850px;
+  border-radius: 15px;
 }
 
 .navButton:active {
