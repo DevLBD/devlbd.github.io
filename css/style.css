@@ -85,13 +85,13 @@ p.description {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  border-radius: 910px;
+  border-radius: 850px;
   border: solid 3px #272727;
   transition: border-radius 0.2s ease, transform 0.3s ease;
 }
 
 .navButton:hover {
-  border-radius: 1000px;
+  border-radius: 890px;
 }
 
 .navButton:active {
@@ -116,7 +116,7 @@ p.description {
   border-radius: 15px;
   position: absolute;
   top: 50px;
-  left: 75px;
+  left: 50px;
   transform: scale(0.01);
   opacity: 0;
   transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.5s ease;
