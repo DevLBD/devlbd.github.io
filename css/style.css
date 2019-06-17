@@ -81,7 +81,8 @@ p.description {
   margin-top: 10px;
   width: 11px;
   height: 11px;
-  position: fixed;
+  position: relative;
+  right: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,7 +198,7 @@ p.description {
   display: flex;
   position: fixed;
   top: 0px;
-  width: 330px;
+  width: 875px;
 }
 
 .book {
