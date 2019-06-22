@@ -42,6 +42,14 @@ h5 {
   text-transform: uppercase;
 }
 
+h5.sub {
+  padding: 10px;
+  color: black;
+  font-size: 36px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
 h5.white {
   padding: 10px;
   color: white;
