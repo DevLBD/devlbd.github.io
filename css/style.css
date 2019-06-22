@@ -89,6 +89,14 @@ p.description {
   
  } 
 
+ p.newbold {
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Poppins";
+  
+ } 
+
 
 
 .navWrapper {
