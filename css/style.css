@@ -232,29 +232,7 @@ p.description {
   display: flex;
   position: fixed;
   top: 0px;
-  width: 1200px;
-}
-
-.book {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.spotify {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-.albums {
-  font-family: "Source Sans Pro", sans-serif;
-  display: flex;
-}
-
-.wrap {
-  position: relative;
-  float: right;
-  display: flex;
-  align-items: right;
-  justify-content: right;
-  background: white;
+  width: 1200px;  
 }
 
 .btn {
@@ -412,22 +390,30 @@ p.description {
 
   .boxone:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxtwo:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxthree:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxfour:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxfive:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxproj:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxprojtwo:hover {
     transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
+  
