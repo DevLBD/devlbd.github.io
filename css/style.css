@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Pacifico');
+﻿@import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
@@ -388,6 +388,18 @@ p.description {
     transition: all 0.3s ease 0s;
   }
 
+  .boxprojthree {
+    width: 440px;
+    height: 220px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: white;
+    background-color: rgb(235, 66, 0);
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+  }
+
   .boxone:hover {
     transform: translateY(-7px);
     box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
@@ -413,6 +425,10 @@ p.description {
     box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
   .boxprojtwo:hover {
+    transform: translateY(-7px);
+    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
+  }
+  .boxprojthree:hover {
     transform: translateY(-7px);
     box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
   }
