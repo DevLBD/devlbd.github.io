@@ -245,11 +245,13 @@ p.description {
 }
 
 .menu {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.952);
   display: flex;
   position: fixed;
   top: 0px;
-  width: 1200px;  
+  width: 1250px;  
+  height: 55px;
+  margin-left: -5px;
 }
 
 .btn {
