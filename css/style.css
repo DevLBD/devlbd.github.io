@@ -1,453 +1,168 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 html {
-  scroll-behavior: smooth;
+    background-color: rgb(20, 20, 20);
+    scroll-behavior: smooth;
 }
 
-.bio {
-    font-family: "Source Sans Pro", sans-serif;
-}
-
-.header {
-    font-family: "Source Sans Pro", sans-serif;
-    transition: all 0.3s ease 0s;
-    
-}
 * {
-  margin: 0px;
-  padding: 10px;
-}  
-
-*::selection {
-  color: white;
-  background-color: rgb(0, 0, 0);
-}  
-  
-h1 {
-  color: #272727;
-  font-size: 96px;
-  font-weight: 700;
-  cursor: default;
-}
-
-h2 {
-  color: #151515;
-  font-size: 64px;
-  font-weight: 700;
-  cursor: default;
-}
-
-h2.sub {
-  color: #151515;
-  font-size: 40px;
-  font-weight: 650;
-  cursor: default;
-}
-
-h5 {
-  padding: 10px;
-  color: black;
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  cursor: default;
-}
-
-h5.sub {
-  padding: 10px;
-  color: black;
-  font-size: 34px;
-  font-weight: 1000;
-  font-family: "Poppins";
-  text-transform: uppercase;
-  cursor: default;
-}
-
-h5.white {
-  padding: 10px;
-  color: white;
-  font-size: 24px;
-  font-weight: 900;
-  text-transform: uppercase;
-  cursor: default;
-}
-
-h6 {
-  color: grey;
-  font-size: 24px;
-  font-weight: 600;
-  text-transform: uppercase;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 p.description {
-  color: white;
-  font-size: 24px;
-  font-weight: 10;
-  font-family: "Source Sans Pro", sans-serif;
-  cursor: default;
-  
- } 
-
- p.black {
-  color: black;
-  font-size: 24px;
-  font-weight: 10;
-  font-family: "Source Sans Pro", sans-serif;
-  cursor: default;
-  
- } 
-
- p.little {
-  color: rgb(95, 95, 95);
-  font-size: 16px;
-  font-weight: 14;
-  font-family: "Source Sans Pro", sans-serif;
-  cursor: default;
-  
- } 
-
- p.new {
-  color: black;
-  font-size: 16px;
-  font-weight: bold;
-  font-family: "Poppins";
-  cursor: default;
-  
- } 
-
- p.newbold {
-  color: black;
-  font-size: 24px;
-  font-weight: 1000;
-  font-family: "Poppins";
-  cursor: default;
- } 
-
- p {
-  cursor: default;
- }
-
-.navWrapper {
-  margin-top: 10px;
-  width: 11px;
-  height: 11px;
-  position: fixed;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    color: rgb(187, 187, 187);
+    margin-top: -15px;
+    font-size: 24px;
+    font-weight: 10;
 }
 
-.navButton {
-  margin-left: -5px;
-  width: 11px;
-  height: 11px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 10px;
-  border: solid 3px #272727;
-  transition: border-radius 0.2s ease, transform 0.3s ease;
+p.subtitle {
+    padding: 11px;
+    color: rgb(146, 146, 146);
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: -60px;
 }
 
-.navButton:hover {
-  border-radius: 15px;
+p.divider {
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-style: wavy;
 }
 
-.navButton:active {
-  border-radius: 1000px;
-}
-
-.menuIcon {
-  width: 25px;
-  transition: transform 0.3s ease;
-}
-
-.menuIcon.open {
-  transform: rotate(45deg);
-}
-
-.menub {
-  background: white;
-  width: 200px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.15);
-  border-radius: 15px;
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  transform: scale(0.01);
-  opacity: 0;
-  transition: transform 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55), opacity 0.5s ease;
-  transform-origin: left top;
-}
-
-.menub.open {
-  transform: scale(0.99);
-  opacity: 1;
-}
-
-.menub a {
-  color: #393939;
-  font-size: 20px;
-  font-family: "Poppins";
-  font-weight: bold;
-  display: block;
-  text-decoration: none;
-  text-align: center;
-  transition: 0.2s ease;
-}
-
-.menub a:hover {
-  color: #D53D3D;
-} 
-
-#about, #work, #contact {
-  margin-top: 20px;
-}
-
-.button-two {
-  border-radius: 4px;
-  background-color: red;
-  border: none;
-  padding: 20px;
-  width: 259px;
-  transition: all 0.5s;
-}
-
-
-.button-two span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button-two span:after {
-  content: '»';
-  position: absolute;
-  opacity: 0;
-  top: 10;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button-two:hover span {
-  padding-right: 25px;
-}
-
-.button-two:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.menu {
-  background-color: rgba(255, 255, 255, 0.952);
-  display: flex;
-  position: fixed;
-  top: 0px;
-  width: 1250px;  
-  height: 55px;
-  margin-left: -5px;
-}
-
-.btn {
-  width: 134px;
-  height: 45px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: rgb(189, 181, 181);
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  }
-
-.btn:hover {
-  background-color: #ff5722;
-      box-shadow: 0px 15px 20px rgba(119, 29, 0, 0.73);
-  color: #fff;
-  transform: translateY(-7px);
-}
-
-.suggested {
-    display: flex;
-    font-family: "Source Sans Pro", sans-serif;
-  }
-
-.showcase {
-    font-family: "Source Sans Pro", sans-serif;
-    float: center;
-  }
-
-  .devices {
-    font-family: "Source Sans Pro", sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .welcome {
-    font-family: "Source Sans Pro", sans-serif;
-    display: flex;
-    padding: 0px;
-  }
-
-  .btmy {
-    width: 150px;
-    height: 45px;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-weight: 900;
+h2 {
+    padding: 10px;
     color: white;
-    background-color: #000;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+h2.sub {
+    color: whitesmoke;
+    font-size: 48px;
+    font-weight: 680;
+}
+
+h3 {
+    color: rgb(187, 187, 187);
+    font-size: 32px;
+    font-weight: 700;
+}
+
+h3.sub {
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+h4.sub {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 8px;
+}
+
+h5 {
+    padding: 10px;
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h6 {
+    padding: 10px;
+    color: rgb(139, 139, 139);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.navbar {
+    margin-top: -20px;
+    width: 1500px;
+    height: 95px;
+    background-color: rgba(20, 20, 20, 0.950);
+    padding: 0px;
+    position: fixed;
+}
+
+.space {
+    border: solid 2px orangered;
+    border-radius: 10px;
+    width: 50px; 
+}
+
+.card {
+    padding: 10px;
+    margin-top: -50px;
+    background-color: rgb(20, 20, 20);
+}
+
+.header {
+    margin-bottom: -50px;
+}
+
+.divider {
+    margin-left: 25px;
+    width: 190px;
+    height: 1px;
+    border-bottom: 2px orangered solid;
+}
+
+.abilities {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+}
+
+.works {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+}
+
+.contact {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+}
+
+.footer {
+    height: 180px;
+    background: linear-gradient(45deg, red, orange);
+    margin: -8px;
+    padding: 10px;
+}
+
+.bts {
+    margin-left: -20px;
+    padding: 5px;
+}
+
+.bt {
+    margin-top: -90px;
+    margin-left: 15px;
+    padding: 15px;
     border: none;
     border-radius: 20px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
+    color: white;
+    background: linear-gradient(45deg, red, orange);
+    font-weight: 900;
+    width: 150px;
+    height: 45px;
     cursor: pointer;
-    }
-
-    .btmy:hover {
-        background-color: rgb(233, 220, 220);
-            box-shadow: 0px 15px 20px rgba(49, 48, 48, 0.73);  
-        color: #000;
-        transform: translateY(-3px);
-      }
-.boxone {
-  width: 440px;
-  height: 200px;
-  font-family: "Source Sans Pro", sans-serif;
-  color: white;
-  background-color: rgb(66, 183, 255);
-  border: none;
-  border-radius: 6px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  }
-
-  .boxtwo {
-    width: 440px;
-    height: 200px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(255, 128, 0);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease 0s;
-  }
+}
 
-  .boxthree {
-    width: 440px;
-    height: 200px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(192, 7, 47);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+.bt:hover {
+    width: 180px;
     transition: all 0.3s ease 0s;
-  }
+}
 
-  .boxfour {
-    width: 440px;
-    height: 200px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(194, 38, 124);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-  }
-
-  .boxfive {
-    width: 440px;
-    height: 200px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(199, 17, 17);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-  }
-
-  .boxproj {
-    width: 440px;
-    height: 220px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(6, 115, 134);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-  }
-
-  .boxprojtwo {
-    width: 440px;
-    height: 220px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(158, 0, 1);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-  }
-
-  .boxprojthree {
-    width: 440px;
-    height: 220px;
-    font-family: "Source Sans Pro", sans-serif;
-    color: white;
-    background-color: rgb(235, 66, 0);
-    border: none;
-    border-radius: 6px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-  }
-
-  .boxone:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxtwo:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxthree:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxfour:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxfive:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxproj:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxprojtwo:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
-  .boxprojthree:hover {
-    transform: translateY(-7px);
-    box-shadow: 0px 8px 15px rgba(49, 48, 48, 0.73);
-  }
+.buttons {
+    align-items: center;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 10px;
+}

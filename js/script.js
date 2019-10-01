@@ -1,6 +1,6 @@
-$(document).ready(function(){
-  $(".navButton").click(function() {
-    $(".menuIcon").toggleClass("open");
-    $(".menub").toggleClass("open");
-  });
-});
+// Just a little joke. :)
+var portfolioButton = document.getElementById("portfolio");
+portfolioButton.addEventListener("click", trollingUser);
+function trollingUser() {
+    alert("You're already here, lol.")
+}
