@@ -9,6 +9,12 @@ html {
 
 * {
     font-family: "Source Sans Pro", sans-serif;
+    cursor: default;
+}
+
+*::selection {
+    color: white;
+    background-color: red;
 }
 
 p.description {
@@ -126,8 +132,13 @@ h6 {
     padding: 10px;
 }
 
+.about {
+    background-color: rgb(20, 20, 20);
+    padding: 10px;
+}
+
 .footer {
-    height: 180px;
+    height: 175px;
     background: linear-gradient(45deg, red, orange);
     margin: -8px;
     padding: 10px;
