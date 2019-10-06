@@ -17,6 +17,11 @@ html {
     background-color: red;
 }
 
+a {
+    color: white;
+    cursor: pointer;
+}
+
 p.description {
     color: rgb(187, 187, 187);
     margin-top: -15px;
@@ -95,7 +100,7 @@ h6 {
 }
 
 .space {
-    border: solid 2px orangered;
+    border: solid 2px rgba(20, 20, 20, 0.950);
     border-radius: 10px;
     width: 50px; 
 }
