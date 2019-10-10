@@ -1,4 +1,2 @@
 ﻿https://devlbd.github.io/
-https://devlbd.github.io/p/about
-https://devlbd.github.io/p/privacy
-https://devlbd.github.io/p/projects
+https://devlbd.github.io/about
