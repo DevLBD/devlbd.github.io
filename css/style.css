@@ -22,6 +22,20 @@ a {
     cursor: pointer;
 }
 
+a.title {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
+a.title:hover {
+    color: rgb(201, 201, 201);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+
 p.description {
     color: rgb(187, 187, 187);
     margin-top: -15px;
