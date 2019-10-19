@@ -20,6 +20,13 @@ html {
 a {
     color: white;
     cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+a:hover {
+    color: rgb(153, 153, 153);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
 }
 
 a.title {
@@ -30,7 +37,7 @@ a.title {
 }
 
 a.title:hover {
-    color: rgb(201, 201, 201);
+    color: rgb(153, 153, 153);
     cursor: pointer;
     text-decoration: none;
     transition: all 0.3s ease 0s;
