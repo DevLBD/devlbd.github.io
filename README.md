@@ -1,3 +1,4 @@
 # devlbd.github.io
-This is my personal website where I will store my projects and more.
-Feel free to help me to develop this website by reporting issues and more.
+## Lorenzo Barretta, (@dev.lbd)
+
+The Portfolio is where I share my projects and some informations about who I am.
