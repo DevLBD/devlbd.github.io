@@ -1,2 +1,3 @@
 ﻿https://devlbd.github.io/
-https://devlbd.github.io/about
+https://devlbd.github.io/works
+https://devlbd.github.io/mytasks
