@@ -1,22 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Whoops! • Lorenzo Barretta, (@dev.lbd)</title>
+        <title>Lorenzo Barretta, (@dev.lbd)</title>
         <link rel="stylesheet" href="css/style.css">
         <link rel="icon" href="resources/icon.ico">
-        <meta name="theme-color" content="white">
+        <meta name="theme-color" content="black">
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=0.77, user-scalable=no">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2f8296b4bc.js" crossorigin="anonymous"></script>
     </head>
     <body>
-     
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-        <script src="js/script.js"></script>
+        <nav class="main">
+            <div class="pageLinks">
+                <ul class="link-container">
+                    <li>
+                        <a href="https://devlbd.github.io/" class="menu">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://devlbd.github.io/works" class="menu">Works and Tools</a>
+                    </li>
+                    <li>
+                        <a href="https://devlbd.github.io/bio" class="menu">Biography</a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@dev.lbd" class="menu" target="_blank">Blog&nbsp;<span class="material-icons blog">&#xe89e;</span></a>
+                    </li>
+                </ul>
+            </div>
+            <button class="menu-button"><span class="material-icons">&#xe5d2;</span></button>
+        </nav>
+        <header class="content">
+            <h1>Looks like you're lost...</h1>
+            <p class="head">Don't worry, you'll be back home soon. See you later!</p> 
+            <div class="groupButtons">
+                <a href="#recommendedWorks"><button class="first"><span class="text">Let's Go Home</span></button></a>
+                <div class="space"></div>
+                <a href="https://bit.ly/2QBkXpu"><button class="second">Stay here...</button></a>
+            </div>
+            <div id="recommendedWorks"></div>
+        </header>
+        <div class="more">
+            <div class="item">                
+            </div>
+        </div>
+        <div class="separate-foot"></div>
+        <footer class="footer-main">
+            <div class="bio-footer">
+                <h3 class="h3-container">Lorenzo Barretta</h3>
+                <p>I create projects with attention to detail. I focus on creating accessible experiences that users are going to enjoy.</p>
+            </div>
+            <div class="social-footer">
+                <h3 class="h3-container">Social Media</h3>
+                <p>Here are the Social Media platforms that I use the most. Feel free to take a look! :)</p>
+                <div class="social-icons">
+                    <a href="https://instagram.com/dev.lbd" class="social-link">
+                        <span class="fab fa-instagram"></span>
+                    </a>
+                    <div class="social-space"></div>
+                    <a href="https://twitter.com/DevLBD" class="social-link">
+                        <span class="fab fa-twitter"></span>
+                    </a>
+                    <div class="social-space"></div>
+                    <a href="https://github.com/DevLBD" class="social-link">
+                        <span class="fab fa-github"></span>
+                    </a>
+                    <div class="social-space"></div>
+                    <a href="" class="social-link">
+                        <span class="fab fa-youtube"></span>
+                    </a>
+                    <div class="social-space"></div>
+                    <a href="https://medium.com/@dev.lbd" class="social-link">
+                        <span class="fab fa-medium"></span>
+                    </a>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
             function redirectUser(){
                 window.location.href = "https://devlbd.github.io/";
             }
             setTimeout(redirectUser, 8000);
-        </script>
+	</script>
     </body>
 </html>
