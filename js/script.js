@@ -13,3 +13,19 @@ window.addEventListener("scroll", function(){
       $("nav").addClass("scrolled");
     }
   });
+
+var menuIsOpen = 0;
+
+$("document").ready(function(){
+  $(".menu-button").click(function(){
+    if (menuIsOpen == 0) {
+      menuIsOpen = 1;
+      $(".menu-button span").text("close");
+      $(".mobile-menu-overlay").removeClass("closed");
+    } else {
+      menuIsOpen = 0;
+      $(".menu-button span").text("menu");
+      $(".mobile-menu-overlay").addClass("closed");
+    }
+  });
+});
