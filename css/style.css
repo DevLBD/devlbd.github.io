@@ -474,7 +474,6 @@ div.bio-footer {
 div.mobile-menu-overlay {
     background-color: black;
     width: 100%;
-    height: 30%;
     position: fixed;
     z-index: 3;
     top: 0%;
@@ -491,7 +490,8 @@ div.mobile-menu-overlay.closed {
 }
 
 div.mobile-links-container {
-    margin-top: 20%;
+    padding-top: 20%;
+    padding-bottom: 10%;
     margin-left: 5%;
 }
 
