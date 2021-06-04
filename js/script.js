@@ -32,12 +32,14 @@ $("document").ready(function(){
       $(".mobile-menu-overlay").removeClass("closed");
       $(".glass").removeClass("closed");
       $(".main").addClass("menu-open");
+      $("header").addClass("menu-open");
     } else {
       menuIsOpen = 0;
       $(".menu-button span").text("menu");
       $(".mobile-menu-overlay").addClass("closed");
       $(".main").removeClass("menu-open");
       $(".glass").addClass("closed");
+      $("header").removeClass("menu-open");
     }
   });
 });
