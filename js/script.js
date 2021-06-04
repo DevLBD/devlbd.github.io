@@ -6,6 +6,14 @@ $("document").ready(function(){
     });
 });
 
+$("document").ready(function(){
+  $("a.back-to-top").hover(function(){
+      $(".north").addClass("moveUp");
+  }, function(){
+      $(".north").removeClass("moveUp");
+  });
+});
+
 window.addEventListener("scroll", function(){
     if(window.scrollY==0){
       $("nav").removeClass("scrolled");
@@ -22,10 +30,14 @@ $("document").ready(function(){
       menuIsOpen = 1;
       $(".menu-button span").text("close");
       $(".mobile-menu-overlay").removeClass("closed");
+      $(".glass").removeClass("closed");
+      $(".main").addClass("menu-open");
     } else {
       menuIsOpen = 0;
       $(".menu-button span").text("menu");
       $(".mobile-menu-overlay").addClass("closed");
+      $(".main").removeClass("menu-open");
+      $(".glass").addClass("closed");
     }
   });
 });
