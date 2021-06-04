@@ -500,8 +500,8 @@ div.glass {
     height: 100%;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.726);
-    opacity: 0.8;
-    backdrop-filter: blur(15px);
+    opacity: 1;
+    backdrop-filter: blur(10px);
     transition: all 0.8s ease 0s;
     display: none;
 }
