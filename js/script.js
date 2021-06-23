@@ -7,7 +7,7 @@ $("document").ready(function(){
 });
 
 $("document").ready(function(){
-  $("a.back-to-top").hover(function(){
+  $("a#back-to-top").hover(function(){
       $(".north").addClass("moveUp");
   }, function(){
       $(".north").removeClass("moveUp");
